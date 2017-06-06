@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
   spec.summary      = '2017.01.20: Add getAPPCLINKNativeAd, NTYPE_MESSAGE: Highest priority. Update libVDConfigNotification-1.8.28: Fix crash bug on Swift prj'
   
-  spec.source = { :git => "git@gitlab.ppclink.com:ppclink/lib-vdframework-ios.git",
+  spec.source = { :git => "git@bitbucket.org:ppclink/vdframework-ios.git",
   				  :tag => "v#{spec.version}"}
   				  
   spec.platform = :ios, '6.0'

@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'PPCLINKAds-iOS-SDK (2017.01.18: show Interstitial ad:Support callback code block, Support Adcolony 3.x, update setProductType)'
   
   
-  spec.source = { :git => "git@gitlab.ppclink.com:ppclink/ppclink-ads-ios.git",
+  spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
   
 #  spec.frameworks 	= 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'EventKit', 'EventKitUI',  'AudioToolbox', 'AVFoundation','CoreMedia', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'CoreMotion'  

@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
   spec.name         = 'PPCLINKAds-iOS-Lite-SDK'
-  spec.version      = '2.9.11'
+  spec.version      = '2.9.13'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2017 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-spec.summary      = '2017.01.18: Support Lite version without video ad, getNativeAdInfoToShow: support PPCLINK Native Ad, cache old fb native ad, fix bugs (support Vungle, show Interstitial ad:Support callback code block, Support Adcolony 3.x, update setProductType)'
+spec.summary      = '2017.04.25: Fix bug not show admob ad on iPad; Support fullscreen ad on iPhone4s, Support Lite version without video ad, getNativeAdInfoToShow: support PPCLINK Native Ad, cache old fb native ad, fix bugs (support Vungle, show Interstitial ad:Support callback code block, Support Adcolony 3.x, update setProductType)'
   
-  spec.source = { :git => "git@gitlab.ppclink.com:ppclink/ppclink-ads-ios.git",
+  spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
   
 #  spec.frameworks 	= 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'EventKit', 'EventKitUI',  'AudioToolbox', 'AVFoundation','CoreMedia', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'CoreMotion'  

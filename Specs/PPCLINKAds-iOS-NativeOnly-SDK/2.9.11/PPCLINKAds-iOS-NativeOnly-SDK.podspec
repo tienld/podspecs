@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'PPCLINKAds-iOS-NativeOnly-SDK'
-  spec.version      = '2.9.11'
+  spec.version      = '2.9.13'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2017 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-  spec.summary      = '2017.01.11: Support Native ad only'
+  spec.summary      = '2017.04.25: Fix bug not show admob ad on iPad; Support fullscreen ad on iPhone4s,'
   
   
-  spec.source = { :git => "git@gitlab.ppclink.com:ppclink/ppclink-ads-ios.git",
+  spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
   
   spec.weak_frameworks =  'CoreImage'
