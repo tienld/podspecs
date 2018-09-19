@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'PPCLINKAds-iOS-SDK'
-  spec.version      = '3.0.5'
+  spec.name         = 'PPCLINKAds-iOS-Lite-SDK'
+  spec.version      = '3.0.6'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2018 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-spec.summary      = 'PPCLINKAds-iOS-SDK (2018.04.25: Remove Vungle; 2017.11.29:Fix lỗi ko hiện qc interstitial trên device ip8 trở lên, Fix banner ad bugs; 2017.11.10: Support Admob Advanced native ad & admob reward video ad; Banner ad bugs fixed. Add max time show interstitial ad per session;  Fix bug not show admob ad on iPad; Support fullscreen ad on iPhone4s, check PT_PAID: stop init/request ad,  getNativeAdInfoToShow: support PPCLINK Native Ad, cache old fb native ad, fix bugs (support Vungle, show Interstitial ad:Support callback code block, Support Adcolony 3.x, update setProductType)'
+spec.summary      = '2018.04.25: Bỏ mạng Vungle; Fix lỗi ko hiện qc interstitial trên device ip8 trở lên, Fix banner ad bugs, Support Admob Advanced native ad & admob reward video ad; Banner ad bugs fixed, add function showBannerAd with callback. Add max time show interstitial ad per session; Fix bug not show admob ad on iPad; Support fullscreen ad on iPhone4s, Support Lite version without video ad, getNativeAdInfoToShow: support PPCLINK Native Ad, cache old fb native ad, fix bugs (support Vungle, show Interstitial ad:Support callback code block, Support Adcolony 3.x, update setProductType)'
   
   spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
@@ -29,11 +29,12 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.04.25: Remove Vungle; 2017.11.29:F
   spec.dependency 'FBAudienceNetwork'
   spec.dependency 'Google-Mobile-Ads-SDK'
   spec.dependency 'mopub-ios-sdk'
-  spec.dependency 'AdColony'
+  spec.dependency 'MoPub-FacebookAudienceNetwork-Adapters'
+#  spec.dependency 'AdColony'
 #  spec.dependency 'ChartboostSDK'
 #  spec.dependency 'InMobiSDK'
 #  spec.dependency 'VungleSDK-iOS'
   
-  spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
+  spec.xcconfig = { "OTHER_CFLAGS" => "-D __PPCLINKAds_Lite__", "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
 end

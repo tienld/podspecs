@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'PPCLINKAds-iOS-SDK'
-  spec.version      = '3.0.5'
+  spec.version      = '3.0.6'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2018 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
@@ -29,6 +29,7 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.04.25: Remove Vungle; 2017.11.29:F
   spec.dependency 'FBAudienceNetwork'
   spec.dependency 'Google-Mobile-Ads-SDK'
   spec.dependency 'mopub-ios-sdk'
+  spec.dependency 'MoPub-FacebookAudienceNetwork-Adapters'
   spec.dependency 'AdColony'
 #  spec.dependency 'ChartboostSDK'
 #  spec.dependency 'InMobiSDK'
