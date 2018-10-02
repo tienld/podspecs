@@ -26,9 +26,9 @@ spec.summary      = '2018.04.25: Bỏ mạng Vungle; Fix lỗi ko hiện qc inte
 #  	s1.source_files = 'PPCLINKAds-SDK/**/*.{h,m,a}'
 #  end
 #  spec.dependency 'PPCLINK-VDFramework-iOS'
-  spec.dependency 'FBAudienceNetwork'
-  spec.dependency 'Google-Mobile-Ads-SDK'
-  spec.dependency 'mopub-ios-sdk'
+  spec.dependency 'FBAudienceNetwork', '~>4.28.1'
+  spec.dependency 'Google-Mobile-Ads-SDK', '~>7.30.0'
+  spec.dependency 'mopub-ios-sdk', '~>4.20.1'
 #  spec.dependency 'AdColony'
 #  spec.dependency 'ChartboostSDK'
 #  spec.dependency 'InMobiSDK'
