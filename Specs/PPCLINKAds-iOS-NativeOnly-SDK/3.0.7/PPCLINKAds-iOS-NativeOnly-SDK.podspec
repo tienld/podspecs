@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.weak_frameworks =  'CoreImage'
   
   spec.resources = "PPCLINKAds-SDK/**/*.{bundle}"	
-  spec.platform = :ios, '7.0'
+  spec.platform = :ios, '8.0'
   spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a}"
   spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
   spec.vendored_frameworks = 'PPCLINKAds-SDK/**/*.framework'
