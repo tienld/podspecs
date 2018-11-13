@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :http => "https://bitbucket.org/phamdiep68/newvdframework-ios/src/master/VDFramework.zip" }
+  s.source       = { :http => "https://github.com/pvddeveloper/VDFramework/raw/master/VDFramework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
