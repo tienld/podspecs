@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@bitbucket.org:phamdiep68/newvdframework-ios.git", :tag => "v#{s.version}" }
+  s.source       = { :http => "https://bitbucket.org/phamdiep68/newvdframework-ios/src/master/VDFramework.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,8 +89,11 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "VDFramework", "VDFramework/**/*.{zip}"
+      s.vendored_frameworks = 'VDFramework.framework'
+      s.public_header_files = ["VDFramework.framework/Headers/*.h"
+      s.frameworks = 'VDFramework'
+      s.xcconfig = { "FRAMEWORK_SEARCH_PATHS"=> "\"$(PODS_ROOT)/VDFramework\"" }
+  #s.source_files  = "VDFramework", "VDFramework/**/*.{zip}"
   #s.exclude_files = "VDFramework/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
