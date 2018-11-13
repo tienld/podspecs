@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
       s.vendored_frameworks = 'VDFramework.framework'
-      s.public_header_files = ["VDFramework.framework/Headers/*.h"
+      s.public_header_files = ["VDFramework.framework/Headers/*.h"]
       s.frameworks = 'VDFramework'
       s.xcconfig = { "FRAMEWORK_SEARCH_PATHS"=> "\"$(PODS_ROOT)/VDFramework\"" }
   #s.source_files  = "VDFramework", "VDFramework/**/*.{zip}"
