@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
   spec.summary      = '2019.11.18: change framework type. 2018.10.02: add funtions get iTunesApplicationIDWith URL; demo create pod spec; 2018.04.20: Support Off Popup khi TryNowText empty; 2017.10.09: Fix crash at: getListOfNotificationWithAdImageType; Fix isInstallAppId de chac chan chay o mainthread; Fix crash bug when build in xcode 9; Add more interstitial ad free time when popup ad show; Add config: InterstitialAdMaxTimePerSession, add notify kNotifyJustShowPopupAd; Add getAPPCLINKNativeAd, NTYPE_MESSAGE: Highest priority. Update libVDConfigNotification-1.8.28: Fix crash bug on Swift prj'
-  spec.source = { :http => "https://bitbucket.org/ppclink/vdframework-sample-prj-ios/raw/fc1b01ac390f153bdef760d050d47f2a969d7cc3/VDFrameworkBuildFolder/VDFramework.zip"}
+  spec.source = { :http => "https://github.com/pvddeveloper/VDFramework/raw/master/VDFramework.zip" }# "https://bitbucket.org/ppclink/vdframework-sample-prj-ios/raw/fc1b01ac390f153bdef760d050d47f2a969d7cc3/VDFrameworkBuildFolder/VDFramework.zip"}
   #spec.source = { :git => "git@bitbucket.org:ppclink/vdframework-sample-prj-ios.git",
   #          :tag => "v#{spec.version}"}
   
