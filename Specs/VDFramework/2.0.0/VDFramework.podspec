@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   #          :tag => "v#{spec.version}"}
   
   spec.platform = :ios, '8.0'
-  spec.source_files = "**/VDFramework.{zip}"
+ # spec.source_files = "**/VDFramework.{zip}"
    spec.vendored_frameworks = 'VDFramework.framework'
   spec.public_header_files = ["VDFramework.framework/Headers/*.h"]
   spec.frameworks = 'VDFramework'
