@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'PPCLINK-VDFramework-iOS'
+  spec.name         = 'VDFramework' #'PPCLINK-VDFramework-iOS'
   spec.version      = '2.0.0'
   spec.license    = {"type" => "Copyright", "text" => "Copyright 2012 - 2018 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
