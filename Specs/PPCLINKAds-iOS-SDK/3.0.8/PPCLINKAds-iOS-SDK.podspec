@@ -23,6 +23,7 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   spec.dependency 'Google-Mobile-Ads-SDK', '7.46.0'
   spec.dependency 'mopub-ios-sdk', '5.4.0'
   spec.dependency 'FBAudienceNetwork', '4.99.3'
+  spec.dependency 'AdColony', '3.3.5'
   
   spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
