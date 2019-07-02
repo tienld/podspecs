@@ -26,7 +26,7 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
 #  	s1.source_files = 'PPCLINKAds-SDK/**/*.{h,m,a}'
 #  end
 #  spec.dependency 'PPCLINK-VDFramework-iOS'
-  spec.dependency 'FBAudienceNetwork', '4.99.2'
+  #spec.dependency 'FBAudienceNetwork', '4.99.2'
   spec.dependency 'Google-Mobile-Ads-SDK'
  # spec.dependency 'mopub-ios-sdk', '5.4.0'
   spec.dependency 'MoPub-FacebookAudienceNetwork-Adapters', '4.99.2.1'
