@@ -20,10 +20,11 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   
   spec.exclude_files = "PPCLINKAds-SDK/MoPub/Adapter_StartApp/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_Vungle/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_InMobi/**/*.*" 
 
-  spec.dependency 'Google-Mobile-Ads-SDK', '7.46.0'
-  spec.dependency 'mopub-ios-sdk', '5.4.0'
-  spec.dependency 'FBAudienceNetwork', '4.99.3'
-  spec.dependency 'AdColony', '3.3.5'
+  spec.dependency 'Google-Mobile-Ads-SDK'
+  spec.dependency 'mopub-ios-sdk'
+  spec.dependency 'FBAudienceNetwork'
+  spec.dependency 'AdColony'
+  spec.dependency 'ADXLibrary', '1.5.16', :git => 'https://adx-developer:developer2017@github.com/adxcorp/ADXLibrary_iOS.git'
   
   spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
