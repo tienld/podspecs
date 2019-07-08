@@ -12,7 +12,8 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
 #  spec.frameworks 	= 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'EventKit', 'EventKitUI',  'AudioToolbox', 'AVFoundation','CoreMedia', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'CoreMotion'  
   spec.weak_frameworks =  'CoreImage'
   
-  spec.resources = "PPCLINKAds-SDK/**/*.{bundle}"	
+  spec.resources = "PPCLINKAds-SDK/**/*.{bundle,xib}"	
+ 
   spec.platform = :ios, '8.0'
   spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a,xib}"
   spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
