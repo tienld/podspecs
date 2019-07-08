@@ -14,7 +14,7 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   
   spec.resources = "PPCLINKAds-SDK/**/*.{bundle}"	
   spec.platform = :ios, '8.0'
-  spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a}"
+  spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a,xib}"
   spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
   spec.vendored_frameworks = 'PPCLINKAds-SDK/**/*.framework'
   
