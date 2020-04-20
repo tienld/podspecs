@@ -1,11 +1,11 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'PPCLINKAds-iOS-NativeOnly-SDK'
-  spec.version      = '3.2.4'
+  spec.version      = '3.3'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2017 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-  spec.summary      = '2019.08.12: Thêm load init config cho mopub'
+  spec.summary      = '2020.04.20: Thêm fb banner, fullscreen'
   
   
   spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",

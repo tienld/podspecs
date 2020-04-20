@@ -1,11 +1,10 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'PPCLINKAds-iOS-SDK'
-  spec.version      = '3.1.8'
+  spec.name         = 'PPCLINKAds-iOS-Lite-SDK'
+  spec.version      = '3.3'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2018 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới của mopub, facebook và google. Thêm phương thức tạo native ads mới.)'
-  
+spec.summary      = '2019.04.20: Thêm facebook banner và fullscreen'
   spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
   
@@ -13,9 +12,6 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   spec.weak_frameworks =  'CoreImage'
   
   spec.resources = "PPCLINKAds-SDK/*.xib"	
- #spec.resource_bundles = {
-  #   'PPCLINKAds-SDK' => ['PPCLINKAds-SDK/**/*.xib']
- #}
   spec.platform = :ios, '8.0'
   spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a}"
   spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
@@ -23,12 +19,20 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   
   spec.exclude_files = "PPCLINKAds-SDK/MoPub/Adapter_StartApp/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_Vungle/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_InMobi/**/*.*" 
 
+#  spec.libraries = 'z', 'sqlite3'  
+  
+#  spec.subspec 'VDFramework' do |s1|
+#  	s1.source_files = 'PPCLINKAds-SDK/**/*.{h,m,a}'
+#  end
+#  spec.dependency 'PPCLINK-VDFramework-iOS'
+  spec.dependency 'FBAudienceNetwork'
   spec.dependency 'Google-Mobile-Ads-SDK'
   spec.dependency 'mopub-ios-sdk'
-  spec.dependency 'FBAudienceNetwork'
-  spec.dependency 'AdColony'
-  #spec.dependency 'ADXLibrary', '1.5.16', :git => 'https://adx-developer:developer2017@github.com/adxcorp/ADXLibrary_iOS.git'
+#  spec.dependency 'AdColony'
+#  spec.dependency 'ChartboostSDK'
+#  spec.dependency 'InMobiSDK'
+#  spec.dependency 'VungleSDK-iOS'
   
-  spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
+  spec.xcconfig = { "OTHER_CFLAGS" => "-D __PPCLINKAds_Lite__", "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
 end

@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name         = 'PPCLINKAds-iOS-SDK'
-  spec.version      = '3.1.8'
+  spec.version      = '3.3'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2018 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
   spec.authors      = { 'Do Lam' => 'lamdgbk50@gmail.com' }
-spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới của mopub, facebook và google. Thêm phương thức tạo native ads mới.)'
+spec.summary      = '2020.04.20: Thêm fb banner và insterstitial'
   
   spec.source = { :git => "git@bitbucket.org:ppclink/ppclink-ads-ios.git",
   				  :tag => "v#{spec.version}"}	
@@ -31,4 +31,5 @@ spec.summary      = 'PPCLINKAds-iOS-SDK (2018.10.23: Update với sdk mới củ
   
   spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
+  spec.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 end
