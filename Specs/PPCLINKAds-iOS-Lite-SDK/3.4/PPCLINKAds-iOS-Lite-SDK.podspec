@@ -10,8 +10,8 @@ spec.summary      = '2019.04.20: Thêm facebook banner và fullscreen'
   
 #  spec.frameworks 	= 'UIKit', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'EventKit', 'EventKitUI',  'AudioToolbox', 'AVFoundation','CoreMedia', 'EventKit', 'EventKitUI', 'MediaPlayer', 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'CoreMotion'  
   spec.weak_frameworks =  'CoreImage'
-  
-  spec.resources = "PPCLINKAds-SDK/*.xib"	
+  spec.resources = "PPCLINKAds-SDK/**/*.{bundle}" 
+ # spec.resources = "PPCLINKAds-SDK/*.xib"	
   spec.platform = :ios, '8.0'
   spec.source_files = "PPCLINKAds-SDK/**/*.{h,m,a}"
   spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
