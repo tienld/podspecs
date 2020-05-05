@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   				  :tag => "v#{spec.version}"}
   				  
   spec.platform = :ios, '7.0'
-  spec.source_files = "**/*.{h,m,a}"
+  spec.source_files = "**/*.{h,m,a,mm}"
   spec.vendored_libraries =  "**/*.a"
   
   spec.requires_arc = false
