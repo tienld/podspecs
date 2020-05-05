@@ -25,7 +25,7 @@ spec.summary      = '2019.04.20: Thêm facebook banner và fullscreen'
 #  	s1.source_files = 'PPCLINKAds-SDK/**/*.{h,m,a}'
 #  end
 #  spec.dependency 'PPCLINK-VDFramework-iOS'
-  spec.dependency 'FBAudienceNetwork', '5.7.1'
+  spec.dependency 'FBAudienceNetwork'
   spec.dependency 'Google-Mobile-Ads-SDK'
   spec.dependency 'mopub-ios-sdk'
   spec.dependency 'SDWebImage', '~> 5.0'
