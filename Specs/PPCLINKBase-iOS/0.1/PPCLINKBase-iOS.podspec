@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'PPCLINKAds-iOS-SDK'
+  spec.name         = 'PPCLINKBase-iOS'
   spec.version      = '1.0'
   spec.license 		= {"type" => "Copyright", "text" => "Copyright 2012 - 2020 PPCLINK. All rights reserved."}
   spec.homepage     = 'http://www.ppclink.com'
