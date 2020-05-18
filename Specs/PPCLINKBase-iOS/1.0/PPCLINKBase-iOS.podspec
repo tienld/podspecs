@@ -27,9 +27,4 @@ spec.summary      = '2020.05.14: Khởi tạo, ppclink analytics'
  # spec.dependency 'mopub-ios-sdk'
  # spec.dependency 'FBAudienceNetwork', '5.6.1'
   spec.dependency 'Firebase/Analytics'
-  #spec.dependency 'ADXLibrary', '1.5.16', :git => 'https://adx-developer:developer2017@github.com/adxcorp/ADXLibrary_iOS.git'
-  
-  spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
-        "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
-  spec.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 end
