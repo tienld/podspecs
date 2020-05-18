@@ -25,7 +25,7 @@ spec.summary      = '2020.04.20: Thêm fb banner và insterstitial'
 
   spec.dependency 'Google-Mobile-Ads-SDK'
   spec.dependency 'mopub-ios-sdk'
-  spec.dependency 'FBAudienceNetwork', '5.6.1'
+  spec.dependency 'FBAudienceNetwork'
  # spec.dependency 'AdColony'
   #spec.dependency 'ADXLibrary', '1.5.16', :git => 'https://adx-developer:developer2017@github.com/adxcorp/ADXLibrary_iOS.git'
   
