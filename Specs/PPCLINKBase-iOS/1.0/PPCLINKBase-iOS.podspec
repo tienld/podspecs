@@ -17,7 +17,7 @@ spec.summary      = '2020.05.14: Khởi tạo, ppclink analytics'
   #   'PPCLINKAds-SDK' => ['PPCLINKAds-SDK/**/*.xib']
  #}
   spec.platform = :ios, '9.0'
-  spec.source_files = "PPCLINKBase-iOS/PPCLINKBase/*"
+  spec.source_files = "PPCLINKBase-iOS/PPCLINKBase/*.*"
  # spec.vendored_libraries =  "PPCLINKAds-SDK/**/*.a"
   #spec.vendored_frameworks = 'PPCLINKAds-SDK/**/*.framework'
   
