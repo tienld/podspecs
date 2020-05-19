@@ -26,6 +26,6 @@ spec.summary      = '2020.05.14: Khởi tạo, ppclink analytics'
   #spec.dependency 'Google-Mobile-Ads-SDK'
  # spec.dependency 'mopub-ios-sdk'
  # spec.dependency 'FBAudienceNetwork', '5.6.1'
- spec.static_framework = true
-  spec.dependency 'Firebase/Analytics'
+# spec.static_framework = true
+ # spec.dependency 'Firebase/Analytics'
 end
