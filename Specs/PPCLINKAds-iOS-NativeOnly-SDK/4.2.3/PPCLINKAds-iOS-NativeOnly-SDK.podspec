@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "PPCLINKAds-SDK/MoPub/Adapter_StartApp/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_Vungle/**/*.*", "PPCLINKAds-SDK/MoPub/Adapter_InMobi/**/*.*" 
   
   spec.dependency 'FBAudienceNetwork'
-  spec.dependency 'mopub-ios-sdk'
+ # spec.dependency 'mopub-ios-sdk'
   spec.dependency 'Google-Mobile-Ads-SDK'
   
   spec.xcconfig = {"OTHER_CFLAGS" => "-D __PPCLINKAds_NativeOnly__", "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"", "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
