@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint PPCLinkBaseiOS.podspec' to ensure this is a
+# Be sure to run `pod lib lint PPCLINKBaseiOS.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,39 +7,39 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PPCLinkBaseiOS'
-  s.version          = '1.0'
-  s.summary          = 'A short description of PPCLinkBaseiOS.111'
-  s.swift_version = '4.0'
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.name             = 'PPCLINKBaseiOS'
+   s.version          = '1.0'
+   s.summary          = 'A short description of PPCLinkBaseiOS.'
+   s.swift_version = '4.0'
+ # This description is used to generate tags and improve search results.
+ #   * Think: What does it do? Why did you write it? What is the focus?
+ #   * Try to keep it short, snappy and to the point.
+ #   * Write the description between the DESC delimiters below.
+ #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+   s.description      = <<-DESC
+ TODO: Add long description of the pod here.
+                        DESC
 
-  s.homepage         = 'https://github.com/adx-developer/PPCLinkBaseiOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'adx-developer' => 'pvddeveloper@gmail.com' }
-  s.source           = { :git => 'git@bitbucket.org:phamdiep68/ppclinkbaseios.git', :tag => s.version }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.homepage         = 'https://github.com/adx-developer/PPCLINKBaseiOS'
+   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+   s.author           = { 'adx-developer' => 'pvddeveloper@gmail.com' }
+   s.source           = { :git => 'git@github.com:ppclink/PPCLINKBaseiOS.git', :tag => "v#{spec.version}" }
+   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PPCLinkBaseiOS/Classes/**/*'
-   s.platform = :ios, "10.0"
-  # s.resource_bundles = {
-  #   'PPCLinkBaseiOS' => ['PPCLinkBaseiOS/Assets/*.png']
-  # }
+   s.source_files = 'PPCLINKBaseiOS/Classes/**/*'
+    s.platform = :ios, "10.0"
+   # s.resource_bundles = {
+   #   'PPCLinkBaseiOS' => ['PPCLinkBaseiOS/Assets/*.png']
+   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.static_framework = true
-  s.dependency 'FirebaseAnalytics'
-  s.dependency 'SwiftyJSON', '~> 4.0'
+   # s.public_header_files = 'Pod/Classes/**/*.h'
+   # s.frameworks = 'UIKit', 'MapKit'
+   # s.dependency 'AFNetworking', '~> 2.3'
+   s.static_framework = true
+   s.dependency 'FirebaseAnalytics'
+  # s.dependency 'SwiftyJSON', '~> 4.0'
 end
