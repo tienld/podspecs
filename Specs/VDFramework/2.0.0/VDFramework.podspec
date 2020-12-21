@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #spec.source = { :git => "git@bitbucket.org:ppclink/vdframework-sample-prj-ios.git",
   #          :tag => "v#{spec.version}"}
   
-  spec.platform = :ios, '8.0'
+  spec.platform = :ios, '9.0'
  # spec.source_files = "**/VDFramework.{zip}"
    spec.vendored_frameworks = 'VDFramework.framework'
   spec.public_header_files = ["VDFramework.framework/Headers/*.h"]
