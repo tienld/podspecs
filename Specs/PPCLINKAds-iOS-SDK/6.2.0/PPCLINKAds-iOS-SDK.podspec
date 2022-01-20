@@ -36,6 +36,7 @@ spec.summary      = '2020.11.27: Mediation admob'
   #spec.dependency 'GoogleMobileAdsMediationTestSuite'
   spec.dependency 'PersonalizedAdConsent'
   spec.dependency 'GoogleMobileAdsMediationFacebook', '6.6.0'
+  spec.dependency 'FBSDKCoreKit', '11.2.0'
   
   spec.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",
         "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\"",  "FRAMEWORK_SEARCH_PATHS" => "\"$(PODS_ROOT)/**\""}
