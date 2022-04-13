@@ -23,7 +23,7 @@ spec.summary      = '2020.11.27: Mediation admob'
   
   spec.exclude_files = "PpclinkAdsIos/Example/PpclinkAdsIos/PPCLINKAds-SDK/MoPub/Adapter_StartApp/**/*.*", "PpclinkAdsIos/Example/PpclinkAdsIos/PPCLINKAds-SDK/MoPub/Adapter_Vungle/**/*.*", "PpclinkAdsIos/Example/PpclinkAdsIos/PPCLINKAds-SDK/MoPub/Adapter_InMobi/**/*.*" 
 
-  spec.dependency 'Google-Mobile-Ads-SDK', '8.10.0'
+  spec.dependency 'Google-Mobile-Ads-SDK', '8.13.0'
   spec.dependency 'GoogleMobileAdsMediationAdColony', '4.7.1'
  # spec.dependency 'AdColony'
   #spec.dependency 'ADXLibrary', '1.5.16', :git => 'https://adx-developer:developer2017@github.com/adxcorp/ADXLibrary_iOS.git'
